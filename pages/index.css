@@ -3,5 +3,8 @@
   justify-content: center;
   background-color: #2a2c2f;
 }
+
 .header__logo {
+  width: 200px;
+  height: 51.85px;
 }
