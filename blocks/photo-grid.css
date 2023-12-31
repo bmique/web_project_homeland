@@ -1,0 +1,16 @@
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 16px;
+  width: 1184px;
+  height: 442px;
+  flex-shrink: 0;
+  margin: auto;
+}
+
+.photo-grid__item {
+  width: 284px;
+  height: 213px;
+  flex-shrink: 0;
+}
