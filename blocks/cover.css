@@ -1,11 +1,8 @@
 .cover {
-  background-image: url(../images/cover.png);
+  /*background-image: url(../images/cover.png);
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
-  width: 1184px;
-  height: 740px;
-  position: relative;
+  background-repeat: no-repeat;*/
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -13,20 +10,39 @@
   text-align: center;
   margin-top: 92px;
   gap: 32px;
+  position: relative;
 }
 
-.cover:hover {
+.cover__image {
+  width: 1184px;
+  height: 740px;
+  object-fit: cover;
+}
+
+.cover:hover .cover__image {
+  opacity: 0.5;
+}
+
+.cover__image:hover {
   opacity: 0.8;
+}
+
+.cover__content {
+  position: absolute;
+}
+
+.cover__info {
+  margin-bottom: 32px;
 }
 
 .cover__title {
   font-size: 72px;
   font-weight: 900;
   line-height: 76px; /* 105.556% */
+  margin-bottom: 32px;
 }
 
 .cover__subtitle {
-  width: 280px;
   font-size: 18px;
   font-weight: 400;
   line-height: 22px; /* 122.222% */
