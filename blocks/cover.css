@@ -1,8 +1,4 @@
 .cover {
-  /*background-image: url(../images/cover.png);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;*/
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -19,10 +15,6 @@
   object-fit: cover;
 }
 
-.cover:hover .cover__image {
-  opacity: 0.5;
-}
-
 .cover__image:hover {
   opacity: 0.8;
 }
@@ -31,14 +23,14 @@
   position: absolute;
 }
 
-.cover__info {
-  margin-bottom: 32px;
-}
-
 .cover__title {
   font-size: 72px;
   font-weight: 900;
   line-height: 76px; /* 105.556% */
+  margin-bottom: 32px;
+}
+
+.cover__info {
   margin-bottom: 32px;
 }
 
