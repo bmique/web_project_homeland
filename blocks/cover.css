@@ -26,7 +26,7 @@
 .cover__title {
   font-size: 72px;
   font-weight: 900;
-  line-height: 76px; /* 105.556% */
+  line-height: 1.05; /* 105.556% */
   margin-bottom: 32px;
 }
 
@@ -37,7 +37,7 @@
 .cover__subtitle {
   font-size: 18px;
   font-weight: 400;
-  line-height: 22px; /* 122.222% */
+  line-height: 1.22; /* 122.222% */
 }
 
 .cover__link {

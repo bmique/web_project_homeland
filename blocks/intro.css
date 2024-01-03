@@ -1,11 +1,9 @@
 .intro {
-  display: flex;
-  flex-direction: column;
+  max-width: 1017px;
+  margin: auto;
 }
 
 .intro__title {
-  width: 1017px;
-  height: 116px;
   font-size: 54px;
   font-weight: 900;
   line-height: 58px; /* 107.407% */
@@ -13,7 +11,8 @@
 }
 
 .intro__text {
-  width: 722px;
+  position: relative;
+  max-width: 722px;
   margin: 0;
   font-size: 24px;
   font-weight: 400;
@@ -21,12 +20,32 @@
 }
 
 .intro__text-author {
+  display: inline-block;
+  width: 100%;
   text-align: right;
 }
 
 .intro__description {
-  width: 720px;
+  max-width: 720px;
   font-size: 16px;
   line-height: 26.08px; /* 163% */
   margin: 32px 0 92px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .intro {
+    max-width: 288px;
+  }
+  .intro__title {
+    margin: 44px 0 9px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .intro {
+    max-width: 720px;
+  }
+  .intro__title {
+    margin: 55px 0 15px;
+  }
 }

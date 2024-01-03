@@ -19,7 +19,7 @@
   width: 460px;
   font-size: 72px;
   font-weight: 900;
-  line-height: 76px; /* 105.556% */
+  line-height: 1.05; /* 105.556% */
 }
 
 .place__info {
@@ -37,7 +37,7 @@
 .place__artist {
   font-size: 18px;
   font-weight: 400;
-  line-height: 22px; /* 122.222% */
+  line-height: 1.22; /* 122.222% */
 }
 
 .place__image-container {
@@ -53,7 +53,7 @@
 .place__paragraph {
   font-size: 18px;
   font-weight: 400;
-  line-height: 163%; /* 29.34px */
+  line-height: 1.63; /* 163% */
 }
 
 .place__paragraph-first {
