@@ -2,14 +2,22 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  grid-gap: 16px;
-  width: 1184px;
-  height: 442px;
-  flex-shrink: 0;
+  gap: 16px;
+  max-width: 92.5%;
+  margin: auto;
+}
+
+.photo-grid__container {
+  max-width: 284px;
+  max-height: 213px;
 }
 
 .photo-grid__item {
-  width: 284px;
-  height: 213px;
-  flex-shrink: 0;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .photo-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
