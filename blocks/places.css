@@ -56,7 +56,7 @@
 }
 
 .place__image {
-  width: 100%;
+  width: 460px;
 }
 
 .place__paragraph {
@@ -80,7 +80,7 @@
   padding: 13px 20px;
   cursor: pointer;
   text-decoration: none;
-  max-width: 315px;
+  width: 315px;
 }
 
 .place__link:hover {
@@ -93,11 +93,10 @@
   }
   .place-grid {
     column-gap: 28px;
-    row-gap: 46px;
-    margin: 0 24px 0;
+    margin: 0 24px 31px;
   }
   .place-grid:first-child {
-    margin: 0 24px 0;
+    margin: 0 24px 31px;
   }
   .place__title {
     font-size: 42px;
@@ -105,7 +104,6 @@
   }
   .place__image-container {
     max-width: 340px;
-    max-height: 340px;
   }
   .place__artist {
     font-size: 16px;
@@ -113,5 +111,10 @@
   }
   .place__paragraph-first {
     margin: 24px 0 14px;
+  }
+  .place__image {
+    width: 340px;
+  }
+  .place-link {
   }
 }
