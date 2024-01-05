@@ -76,11 +76,4 @@
     height: 746px;
     object-fit: cover;
   }
-  .cover__subtitle {
-    font-size: 14px;
-    line-height: 16px;
-  }
-  .cover__info {
-    margin-bottom: 16px;
-  }
 }

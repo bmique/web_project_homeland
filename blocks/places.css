@@ -7,14 +7,14 @@
 
 .place-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 1fr 1fr;
   grid-template-areas:
     "title artist"
     "image description"
     "link description";
   column-gap: 40px;
-  max-width: 984px;
   margin-top: 80px;
+  max-width: 987px;
 }
 
 .place-grid:first-child {
@@ -59,8 +59,11 @@
   width: 460px;
 }
 
-.place__paragraph {
+.place__paragraph-container {
   grid-area: description;
+}
+
+.place__paragraph {
   font-size: 18px;
   font-weight: 400;
   line-height: 29.34px; /* 163%*/
@@ -71,16 +74,20 @@
 }
 
 .place__link {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
   grid-area: link;
   border-radius: 4px;
   background: #0278fe;
   color: #fff;
   font-size: 18px;
   font-weight: 600;
-  padding: 13px 20px;
+  height: 48px;
   cursor: pointer;
   text-decoration: none;
-  width: 315px;
+  width: 355px;
 }
 
 .place__link:hover {
@@ -110,6 +117,7 @@
   }
   .place__info {
     margin: 0 16px 0;
+    align-self: flex-start;
   }
   .place__url-heading {
     margin: 0 0 8px;
@@ -121,9 +129,9 @@
   }
   .place__link {
     font-size: 14px;
-    padding: 16px 22px;
-    width: 245px;
+    max-width: 245px;
     margin: 8px 16px 16px;
+    align-self: center;
   }
 }
 
@@ -141,6 +149,7 @@
   .place__title {
     font-size: 42px;
     line-height: 46px; /* 109.524% */
+    max-width: 330px;
   }
   .place__image-container {
     max-width: 340px;
@@ -154,5 +163,8 @@
   }
   .place__image {
     width: 340px;
+  }
+  .place__link {
+    margin: 0;
   }
 }
