@@ -8,8 +8,8 @@
 }
 
 .photo-grid__container {
-  max-width: 284px;
-  max-height: 213px;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .photo-grid__item {
