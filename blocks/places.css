@@ -33,7 +33,7 @@
   align-self: flex-end;
 }
 
-.place__info-url-heading {
+.place__heading-info {
   color: #aaa;
   font-size: 12px;
   font-weight: 400;
@@ -42,7 +42,7 @@
   text-transform: uppercase;
 }
 
-.place__info-artist {
+.place__artist-info {
   grid-area: artist;
   font-size: 18px;
   font-weight: 400;
